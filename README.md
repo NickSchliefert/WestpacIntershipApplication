@@ -9,3 +9,7 @@ nickschliefert@gmail.com
 This is a repository storing the files for my website-based cv.
 
 Application for the Westpac Young Technologist Winter Internship Program from 2 July – 27 July 2018 held in the Sydney offices.  
+
+To view the website, start with index.html and go from there!
+
+Best-viewed in Firefox
