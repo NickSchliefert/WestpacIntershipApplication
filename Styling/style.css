@@ -1,0 +1,93 @@
+/*
+filename: style.css
+author: Nicholas Schliefert
+created: 20/05/18
+description: style sheet for my personal website
+*/
+
+#header {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	background-color: white;
+}
+
+/* topHeading refers to h1 element at the top of each page */
+#topHeading { 
+	text-align: center;
+	width: 400px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#topHeading, #menuBar a {
+	color: white;
+	font-family: Helvetica, Arial, sans-serif; 
+	font-weight: bold; 
+	font-style: italic;
+	background-color: crimson;
+	padding: 10px;
+}
+
+#menuBar {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.layoutDivs {
+	width: 25%;
+    height: 500px;
+    overflow: auto;
+	border-color: black;
+	margin-top: 160px;
+}
+
+.layoutDivs2 {
+	margin-top: 160px;
+}
+
+.layoutDivs p{
+	font-size: smaller;
+}
+
+li {
+	padding-bottom: 10px;
+}
+
+#skillsList li {
+	list-style-type: square;
+}
+
+.employList li {
+	list-style-type: none;
+}
+
+#vceA {
+	float: left;
+}
+
+#vceB {
+	float: right;
+	display: inline;
+}
+
+#contactDets h3, #contactDets h4{
+	color: white;
+	font-family: Helvetica, Arial, sans-serif; 
+	font-weight: bold; 
+	font-style: italic;
+	background-color: crimson;
+	width: 200px;
+	text-align: center;
+}
+
+#contactDets h4 {
+	width: 300px;
+}
+
+#transcriptImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
